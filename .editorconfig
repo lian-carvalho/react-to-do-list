@@ -1,0 +1,18 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+[*]
+# Define indentação com espaços (não abas)
+indent_style = space
+# Define tamanho da indentação em 4 espaços
+indent_size = 2
+# Define quebra de linha para Unix (LF)
+end_of_line = lf
+# Define codificação de caracteres como UTF-8
+charset = utf-8
+# Remove espaços em branco no final das linhas
+trim_trailing_whitespace = true
+# Adiciona quebra de linha no final do arquivo
+insert_final_newline = true
