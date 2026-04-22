@@ -1,0 +1,42 @@
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  transition: all .4s;
+}
+
+.task-item:hover {
+  background-color: #51c5de;
+}
+
+.task-item div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.task-item button {
+  display: flex;
+  font-size: medium;
+  background: none;
+  border: none;
+}
+
+.task-item .edit {
+  color: #51c5de;
+}
+
+.task-item .delete {
+  color: #f04c64;
+}
+
+.task-item .edit,
+.task-item .delete {
+  transition: all .4s;
+}
+
+.tasksContainer li:hover .edit,
+.tasksContainer li:hover .delete {
+  color: #000;
+}
